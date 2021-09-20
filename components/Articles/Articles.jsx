@@ -15,7 +15,7 @@ class Articles extends Component {
   }
 
   componentDidMount() {
-    axios.get('https://newsapi.org/v2/top-headlines?country=in&apiKey=f8937eedc0c34db594f2ba041875ccac')
+    axios.get('https://newsapi.org/v2/everything?q=NCERT&from=2021-09-15&sortBy=publishedAt&apiKey=d9b9ca6a32e043dbb6a7fb5d40361ded')
       .then(response => {
         this.setState({
           articles: response.data.articles
