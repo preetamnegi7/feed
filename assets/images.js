@@ -1,0 +1,2 @@
+export const newsPlaceholder = "https://www.dailynews.com/wp-content/uploads/2017/09/img_3776.jpg";
+export const Logo = "http://www.iconarchive.com/download/i99792/designbolts/free-multimedia/News-Mic-iPhone.ico";
